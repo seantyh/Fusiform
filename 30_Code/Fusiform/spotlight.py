@@ -1,13 +1,5 @@
 import numpy as np
 
-def spotlight(img, rect, shape, **kwarg):
-    if shape == "gaussian":
-        filtered = spotlight_gaussian(img, rect, shape, **kwarg)
-    else:
-        filtered = spotlight_rectangle(img, rect, shape, **kwarg)
-    
-    return filtered
-
 def get_filtered_shape(img, coord):
     w, h = img.shape
     x, y, sw, sh = coord 
@@ -22,10 +14,10 @@ def get_filtered_shape(img, coord):
     
     return x, y, sw, sh
 
-def spotlight_gaussian(img, coord, shape, **kwarg):
+def spotlight_gaussian(img, coord, **kwarg):
     return None
 
-def spotlight_rectangle(img, coord, shape, **kwarg):
+def spotlight_rectangle(img, coord, **kwarg):
     x, y, sw, sh = get_filtered_shape(img, coord)
     padw = 0; padh = 0
     if sw < coord[2]:

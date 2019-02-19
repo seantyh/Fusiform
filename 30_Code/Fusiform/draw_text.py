@@ -9,7 +9,7 @@ def measure_text(text):
     txtw, txth = font.getsize(text)
     return txtw, txth
 
-def text2bitmap(text, im_dim):         
+def text2bitmap(text, im_dim):    
     font_size = config.FONT_SIZE
     font = ImageFont.truetype(config.DEFAULT_FONT_PATH, font_size)    
 
