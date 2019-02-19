@@ -4,3 +4,4 @@
 *.py[cod]
 __pycache__/
 .ipynb_checkpoints/
+config.json
