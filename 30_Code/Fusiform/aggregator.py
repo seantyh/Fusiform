@@ -27,3 +27,6 @@ def aggregate_average(intext, digestor, **kwargs):
     k = 5
     transX = (1 / (1 + np.exp(-k*(avgX - 0.5)))) * 255
     return transX
+
+def aggregate_matrix(intext, digestor, **kwargs):
+    pass

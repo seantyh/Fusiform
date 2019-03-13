@@ -2,6 +2,7 @@
 *.swp
 *.tmp
 *.py[cod]
+05_Resource/
 __pycache__/
 .ipynb_checkpoints/
 config.json
