@@ -3,7 +3,11 @@
 *.tmp
 *.py[cod]
 05_Resource/
+50_Data/
 __pycache__/
 .ipynb_checkpoints/
+.vscode/
+
 config.json
-50_Data/
+
+
