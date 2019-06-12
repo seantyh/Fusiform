@@ -6,3 +6,4 @@ from .utils import get_data_path, get_resource_path
 from .ec_space import CharacterSpace
 from .dataset import AffectiveDataset
 from .nnmodel import AffectiveEcModel, AffectiveEcPredictor
+from .cwn_node_vec import CwnNodeVec
